@@ -11,17 +11,24 @@ function App() {
             <img src={imgPattern} className="pattern-img" alt="" />
           </div>
           <img src={photo} className="profile-img" alt="" />
-          <h1>Victor Crest 26</h1>
+          <h1>
+            Victor Crest <span>26</span>
+          </h1>
           <h2>London</h2>
-          <div className="top">
-            <p>80K</p>
-            <p>803K</p>
-            <p>1.4K</p>
-          </div>
-          <div className="bottom">
-            <h3>Followers</h3>
-            <h3>Likes+</h3>
-            <h3>Photos</h3>
+          <hr />
+          <div className="notes">
+            <div className="followers">
+              <p>80K</p>
+              <h3>Followers</h3>
+            </div>
+            <div className="likes">
+              <p>803K</p>
+              <h3>Likes</h3>
+            </div>
+            <div className="bottom">
+              <p>1.4K</p>
+              <h3>Photos</h3>
+            </div>
           </div>
         </div>
       </div>
